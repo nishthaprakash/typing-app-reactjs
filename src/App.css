@@ -1,0 +1,76 @@
+.App {
+  background-color: #03317a;
+  color: rgb(242, 233, 233);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  width: 100vw;
+}
+.heading {
+  padding: 20px;
+}
+.display {
+  font-size: 60px;
+  font-weight: bolder;
+  color: #25864d;
+  background-color: #e2e6e9;
+  border-radius: 20px;
+  width: 600px;
+  padding: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;  
+}
+.display:hover{
+  background-color: rgb(205, 246, 232);
+  color: #03317a;
+  box-shadow: 20px 20px 40px rgb(168, 166, 166);
+}
+.input-div 
+{
+  display: grid;
+  grid-template-columns: 4fr 1.6fr;
+  width: 100vw;
+  max-width: 1000px;  
+}
+.input-box 
+{
+  background-color: rgb(249, 215, 164);
+  color: gray;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: none;
+}
+input:hover{
+  background-color: rgb(250, 228, 202);
+  box-shadow: 10px 10px 20px rgb(168, 166, 166);
+}
+.reset {
+  outline: none;
+  border: none;
+  background-color: #cf1818;
+  color:  #e2e6e9;
+  font-size: 20px;
+}
+.reset:hover{
+  background-color: #ea5353;
+  font-weight: bolder;
+  box-shadow: 10px 10px 20px rgb(168, 166, 166);
+}
+.timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.timer:hover{
+  color: #c1c4c9;
+}
